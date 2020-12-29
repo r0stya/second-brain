@@ -1,0 +1,48 @@
+@import "~bootstrap-icons/font/bootstrap-icons.css";
+
+$width: 140px;
+
+.nav{
+    position: fixed;
+    background-color: #112233;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: $width;
+    padding: 5px;
+    justify-content: center;
+    font-size: 21px;
+    overflow-x: hidden;
+
+    &__title{
+        position: absolute;
+        top: 0;
+        
+        text-align: center;
+        color: #fff;
+        padding: 20px 0;
+    }
+
+    &__btn{
+        width: $width;
+        color: #fff;
+        font-size: 20px;
+        padding: 10px 28px;
+        text-align: center;
+        display: flex;
+        justify-content: space-between;
+        transition: all .25s ease-out;
+
+        &:hover {
+            background-color: #2d4966;
+        }
+
+        i{
+            margin-right: 10px;
+        }
+    }
+}
+.router-link-exact-active{
+    background-color: #2d4966;
+}

@@ -1,0 +1,28 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+body,
+ul,
+p {
+    padding: 0;
+    margin: 0;
+}
+li {
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: #000
+}
+a:hover {
+    text-decoration: none;
+    color: #000
+}
