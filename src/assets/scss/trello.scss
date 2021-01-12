@@ -21,6 +21,9 @@
         color: #fff;
         background-color: #313B4B;
         padding: 5px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center
     };
 
     &__container {
